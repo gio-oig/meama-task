@@ -14,7 +14,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename={"/meama-task"}>
+    <BrowserRouter>
       <QueryClientProvider client={queryClient}>
         <ContextProvider>
           <App />

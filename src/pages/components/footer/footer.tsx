@@ -14,8 +14,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="socials">
-        {data?.socialLinks.map(({ imageUrl, link }) => (
-          <a rel="noreferrer" href={link} target="_blank">
+        {data?.socialLinks.map(({ imageUrl, link }, i) => (
+          <a key={i} rel="noreferrer" href={link} target="_blank">
             <img alt="" src={imageUrl} />
           </a>
         ))}

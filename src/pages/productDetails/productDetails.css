@@ -190,10 +190,11 @@
   animation: loadAnim 0.8s 0.9s forwards;
 }
 
-.bottom__title {
+.bottom__title font {
   font-size: 14px;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.7);
+  font-family: "MeamaSansLGV-Medium" !important;
 }
 
 .border-line {

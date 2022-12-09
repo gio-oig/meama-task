@@ -4,7 +4,6 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
-import { ContextProvider } from "./provider/globalContext";
 
 const queryClient = new QueryClient();
 
@@ -15,9 +14,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter basename="/meama-task">
       <QueryClientProvider client={queryClient}>
-        <ContextProvider>
-          <App />
-        </ContextProvider>
+        <App />
       </QueryClientProvider>
     </BrowserRouter>
   </React.StrictMode>

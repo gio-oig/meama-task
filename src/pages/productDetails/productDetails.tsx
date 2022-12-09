@@ -52,7 +52,7 @@ export const ProductDetails = () => {
           </div>
         </div>
         <div className="product-desctiontion">
-          <h4 className="product-desctiontion__title">აღწერა</h4>
+          <h4 className="product-desctiontion__title">{product?.title}</h4>
           <div
             className="product-desctiontion__text"
             dangerouslySetInnerHTML={{ __html: product?.description || "" }}
@@ -61,7 +61,12 @@ export const ProductDetails = () => {
         {!!product?.capsuleProducts.length && (
           <section className="bottom">
             <div className="border-line"></div>
-            <h4 className="bottom__title">მზადდება ყავის კაფსულით:</h4>
+            <div
+              className="bottom__title"
+              dangerouslySetInnerHTML={{
+                __html: product.shortDescription || "",
+              }}
+            />
             <div className="capsules">
               {product.capsuleProducts.map((capsule) => (
                 <Capsule key={capsule.id} capsule={capsule} />

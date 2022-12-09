@@ -1,11 +1,11 @@
 import { Outlet } from "react-router";
 
-import Footer from "../components/footer/footer";
-import { LocationRow } from "../components/locationCard/locationCard";
-import ProductRow from "../components/productRow/productRow";
+import Footer from "../../components/footer/footer";
+import { LocationRow } from "../../components/locationCard/locationCard";
+import ProductRow from "../../components/productRow/productRow";
 import { useCategories } from "../../queryHook/useCategories";
 import { useLocations } from "../../queryHook/useLocations";
-import { HomeHeader } from "../components/header/homeHeader";
+import { HomeHeader } from "../../components/header/homeHeader";
 
 import "./home.css";
 

@@ -1,4 +1,4 @@
-import { useContacts } from "../../../queryHook/useContacts";
+import { useContacts } from "../../queryHook/useContacts";
 import "./footer.css";
 
 const Footer = () => {

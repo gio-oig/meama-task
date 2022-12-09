@@ -1,12 +1,12 @@
 import { useMemo, useState } from "react";
 import ScrollContainer from "react-indiana-drag-scroll";
 import { useNavigate } from "react-router";
-import { ICategory } from "../../../types";
+import { ICategory } from "../../types";
 
 import "./productRow.css";
 import ProductCard from "../productCard/productCard";
 import Filter from "../filter/filter";
-import findByname from "../../../utils/findByName";
+import findByname from "../../utils/findByName";
 
 type ProductRowProps = {
   category: ICategory;

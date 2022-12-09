@@ -1,5 +1,5 @@
 import { memo } from "react";
-import { Iciti } from "../../../types";
+import { Iciti } from "../../types";
 import Row from "../row/row";
 import "./locationCard.css";
 

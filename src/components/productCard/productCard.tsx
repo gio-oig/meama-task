@@ -1,4 +1,4 @@
-import { IProduct } from "../../../types";
+import { IProduct } from "../../types";
 import c from "classnames";
 
 import "./productCard.css";

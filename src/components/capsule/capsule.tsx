@@ -1,4 +1,4 @@
-import { ICapsule, ISpecification } from "../../../types";
+import { ICapsule, ISpecification } from "../../types";
 import "./capsule.css";
 
 type CapsuleProps = {

@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Capsule from "../components/capsule/capsule";
+import Capsule from "../../components/capsule/capsule";
 import "./productDetails.css";
-import ImageSelects from "../components/imageSelects/imageSelects";
+import ImageSelects from "../../components/imageSelects/imageSelects";
 import useProductDetails from "./useProductDetails";
 
 export const ProductDetails = () => {

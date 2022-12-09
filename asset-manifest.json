@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/meama-task/static/css/main.abd962c8.css",
+    "main.css": "/meama-task/static/css/main.2d2745a4.css",
     "main.js": "/meama-task/static/js/main.d03d0216.js",
     "static/media/MeamaLGV-Medium.woff": "/meama-task/static/media/MeamaLGV-Medium.9cf4cc97e2bb18d35011.woff",
     "static/media/MeamaSansLGV-Medium.woff": "/meama-task/static/media/MeamaSansLGV-Medium.9d76d9abcf16f5ae0948.woff",
     "index.html": "/meama-task/index.html",
-    "main.abd962c8.css.map": "/meama-task/static/css/main.abd962c8.css.map",
+    "main.2d2745a4.css.map": "/meama-task/static/css/main.2d2745a4.css.map",
     "main.d03d0216.js.map": "/meama-task/static/js/main.d03d0216.js.map"
   },
   "entrypoints": [
-    "static/css/main.abd962c8.css",
+    "static/css/main.2d2745a4.css",
     "static/js/main.d03d0216.js"
   ]
 }

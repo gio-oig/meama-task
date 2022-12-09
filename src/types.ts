@@ -57,3 +57,14 @@ export interface Iciti {
   name: string;
   pointCount: number;
 }
+
+export interface IContact {
+  name: string;
+  value: string;
+  socialLinks: socialLink[];
+}
+interface socialLink {
+  imageUrl: string;
+  ogImageUrl: string;
+  link: string;
+}

@@ -1,12 +1,13 @@
 import { Outlet } from "react-router";
+
 import Footer from "../components/footer/footer";
 import { LocationRow } from "../components/locationCard/locationCard";
 import ProductRow from "../components/productRow/productRow";
-
-import "./home.css";
 import { useCategories } from "../../queryHook/useCategories";
 import { useLocations } from "../../queryHook/useLocations";
 import { HomeHeader } from "../components/header/homeHeader";
+
+import "./home.css";
 
 const bgImage =
   "https://cms.meamacollect.ge//meama-collect/application/upload-api/files/bc2ebb59-908e-4a83-8696-cbabaccbc930_1651499715559.png";

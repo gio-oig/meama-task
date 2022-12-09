@@ -1,0 +1,23 @@
+.image-select {
+  position: relative;
+  width: 48px;
+  height: 42px;
+  border-radius: 10px;
+  background-color: #f3f3f3;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.image-select.active {
+  background-color: #ff5955;
+}
+
+.image-select img {
+  max-width: 70%;
+  max-height: 72%;
+  transition: transform 0.5s;
+}
+
+.image-select.active img {
+  transform: translateY(-10px) scale(1.36);
+}

@@ -1,0 +1,21 @@
+.App {
+  max-height: 100vh;
+}
+
+body.visible-product-detail {
+  overflow: hidden;
+}
+
+.wrapper,
+.main-container__bg {
+  transition: transform 0.8s cubic-bezier(0.51, 0.36, 0.22, 1);
+}
+
+.visible-product-detail .wrapper,
+.visible-product-detail .main-container__bg {
+  transform: translateY(-100px);
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,22 @@
+.location-card {
+  background-color: var(--cl-card-bg);
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.location-card .location__icon {
+  width: 18px;
+}
+
+.location-card .location__title {
+  color: black;
+  margin: 9px 0 5px 0;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.location-card .location__subtitle {
+  color: #90712e;
+  font-size: 14px;
+}

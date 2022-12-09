@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --max-content-width: 600px;
+
+  --cl-card-bg: #f3f3f3;
+  --gray-50: rgba(0, 0, 0, 0.5);
+}
+
+@font-face {
+  font-family: "MeamaLGV-Medium";
+  src: url("./assets/fonts/MeamaLGV-Medium.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MeamaSansLGV-Medium";
+  src: url("./assets/fonts/MeamaSansLGV-Medium.woff") format("woff");
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  font-family: "MeamaSansLGV-Medium", BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

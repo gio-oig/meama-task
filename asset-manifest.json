@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.d54ce249.css",
-    "main.js": "/static/js/main.4ab3708b.js",
-    "static/js/787.f6aa7f23.chunk.js": "/static/js/787.f6aa7f23.chunk.js",
-    "static/media/MeamaLGV-Medium.woff": "/static/media/MeamaLGV-Medium.9cf4cc97e2bb18d35011.woff",
-    "static/media/MeamaSansLGV-Medium.woff": "/static/media/MeamaSansLGV-Medium.9d76d9abcf16f5ae0948.woff",
-    "index.html": "/index.html",
-    "main.d54ce249.css.map": "/static/css/main.d54ce249.css.map",
-    "main.4ab3708b.js.map": "/static/js/main.4ab3708b.js.map",
-    "787.f6aa7f23.chunk.js.map": "/static/js/787.f6aa7f23.chunk.js.map"
+    "main.css": "/meama-task/static/css/main.94a51015.css",
+    "main.js": "/meama-task/static/js/main.d6fc9ccb.js",
+    "static/js/787.f6aa7f23.chunk.js": "/meama-task/static/js/787.f6aa7f23.chunk.js",
+    "static/media/MeamaLGV-Medium.woff": "/meama-task/static/media/MeamaLGV-Medium.9cf4cc97e2bb18d35011.woff",
+    "static/media/MeamaSansLGV-Medium.woff": "/meama-task/static/media/MeamaSansLGV-Medium.9d76d9abcf16f5ae0948.woff",
+    "index.html": "/meama-task/index.html",
+    "main.94a51015.css.map": "/meama-task/static/css/main.94a51015.css.map",
+    "main.d6fc9ccb.js.map": "/meama-task/static/js/main.d6fc9ccb.js.map",
+    "787.f6aa7f23.chunk.js.map": "/meama-task/static/js/787.f6aa7f23.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d54ce249.css",
-    "static/js/main.4ab3708b.js"
+    "static/css/main.94a51015.css",
+    "static/js/main.d6fc9ccb.js"
   ]
 }

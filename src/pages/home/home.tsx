@@ -17,7 +17,7 @@ export const Home = () => {
   const { cities } = useLocations();
 
   if (isLoading || !categories) {
-    return <div>loading</div>;
+    return <></>;
   }
 
   return (
